@@ -26,10 +26,8 @@ def recommend_price(product_name, demand_level, supply_level, base_cost):
     - Return only the final price and reasoning in concise form.
     """
 
-    # LLM reasoning
     result = llm.invoke(prompt)
     return result
 
-# Example usage
 response = recommend_price("Premium Rice", "High", "Low", 80)
 print(response)
