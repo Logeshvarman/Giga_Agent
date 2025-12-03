@@ -1,6 +1,6 @@
 langchain
 langchain_community
 langchain-ollama
-chromadb
-ipykernel
-faiss-cpu
+fastmcp
+pymysql
+fastapi
